@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import { FaCartShopping, FaBars, FaCircleUser, FaXmark } from "react-icons/fa6";
 import { useCart } from "../../service/useCart.js";
+import logo from "../../assets/images/Logo.png";
 
 const primaryLinks = [
   { label: "Tattoo", to: "/tattoo" },
@@ -79,7 +80,7 @@ function Header() {
             className="brand justify-self-center relative z-20"
             aria-label="Home Tattoo home">
             <img
-              src={"/src/assets/images/Logo.png"}
+              src={logo}
               alt="Home Tattoo logo"
               className="h-25! w-auto! object-contain"
             />

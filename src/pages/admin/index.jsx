@@ -15,6 +15,7 @@ import {
   FaUserGroup,
   FaXmark,
 } from "react-icons/fa6";
+import whiteLogo from "../../assets/images/Logo-white.png";
 
 const navigation = [
   { label: "Overview", icon: FaHouse },
@@ -327,7 +328,7 @@ function AdminDashboard() {
             className="flex items-center gap-3"
             aria-label="Home Tattoo home">
             <img
-              src={"/src/assets/images/Logo-white.png"}
+              src={whiteLogo}
               alt="Home Tattoo logo"
               className="h-50 object-contain justify-content-around"
             />

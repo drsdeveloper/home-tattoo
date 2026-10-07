@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import whiteLogo from "../../assets/images/Logo-white.png";
 
 const exploreLinks = [
   { label: "Artists", to: "/artists" },
@@ -23,7 +24,7 @@ function Footer() {
           <div className="max-w-sm">
             <Link to="/" aria-label="Home Tattoo home">
               <img
-                src={"/src/assets/images/Logo-white.png"}
+                src={whiteLogo}
                 alt="Home Tattoo logo"
                 className="h-25 w-auto object-contain"
               />
